@@ -1,38 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div>
-      <div
-        onclick="panelClicked(event.currentTarget)"
-        class="panel top-left-panel"
-      ></div>
-      <div
-        onclick="panelClicked(event.currentTarget)"
-        class="panel top-right-panel"
-      ></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h3>Press any KEY to Start the Game!</h3>
+    <div class="one">
+        <div class="two red" type="button" id="red"></div>
+        <div class="two yellow" type="button" id="yellow"></div>
     </div>
-    <div>
-      <div
-        onclick="panelClicked(event.currentTarget)"
-        class="panel bottom-left-panel"
-      ></div>
-      <div
-        onclick="panelClicked(event.currentTarget)"
-        class="panel bottom-right-panel"
-      ></div>
+    <div class="one">
+        <div class="two blue" type="button" id="blue"></div>
+        <div class="two green" type="button" id="green"></div>
     </div>
-    <div class="center"></div>
-
     <script src="index.js"></script>
-  </body>
+</body>
 </html>
